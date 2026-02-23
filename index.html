@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gabriel | Portfólio</title>
+    <meta
+      name="description"
+      content="Portfólio de Gabriel, desenvolvedor. Sobre, habilidades, projetos e contatos."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./assets/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#inicio">&lt;Gabriel Filomeno&gt;</a>
+      </div>
+      <button
+        class="menu-hamburguer"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        aria-controls="links-navegacao"
+      >
+        <span class="listra-hamburguer"></span>
+        <span class="listra-hamburguer"></span>
+        <span class="listra-hamburguer"></span>
+      </button>
+      <nav id="navegacao-principal" aria-label="Navegação principal">
+        <ul id="links-navegacao">
+          <li><a href="#inicio" aria-current="page">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contatos">Contatos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio" class="apresentacao">
+        <h1>Olá, eu sou o Gabriel</h1>
+        <h2>Desenvolvedor Web</h2>
+        <h2>Bem-vindo ao meu portfólio! Aceita um café?</h2>
+        <img src="./assets/cafe-e-codigo.png" alt="Foto de perfil de Gabriel" />
+      </section>
+      <section id="sobre" class="sobre">
+        <h2>Sobre mim</h2>
+        <p class="sobre-descricao">
+          Meu nome é Gabriel Filomeno, sou apaixonado por tecnologia e
+          desenvolvimento web, atualmente atuo como desenvolvedor Backend. Busco
+          sempre aprender e evoluir, um bom desafio me motiva muito e a cada
+          novo problema eu vejo uma oportunidade para me desafiar e crescer. Mas
+          nem só de código vive um desenvolvedor, gosto muito de música, games,
+          cinema, trilhas e praias. Sou uma pessoa comunicativa, colaborativa e
+          sempre disposto a ajudar os outros.
+        </p>
+      </section>
+      <section id="habilidades" class="habilidades">
+        <h2>Minhas habilidades</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Node.js</li>
+          <li>Java</li>
+          <li>Spring Boot</li>
+          <li>Angular</li>
+          <li>PostgreSQL</li>
+          <li>Git</li>
+        </ul>
+      </section>
+      <section id="formacao" class="formacao">
+        <h2>Formação</h2>
+        <ul class="formacao-lista">
+          <li class="formacao-item">
+            <h3>Desenvolvimento Web Front-End</h3>
+            <p class="instituicao">SENAI/SC LAB 365</p>
+            <p class="carga-horaria">Carga horária: 300h</p>
+            <p class="periodo">2024</p>
+            <a
+              href="https://sgn.sesisenai.org.br/arquivos/certificacao/1c/df/15/1cdf154fbcd5d40cf4672ef9d410e5a9/pfx3869277936522504696sfx.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-certificado"
+              >Acessar Certificado</a
+            >
+          </li>
+          <li class="formacao-item">
+            <h3>Desenvolvimento Web Back-End</h3>
+            <p class="instituicao">SENAI/SC LAB 365</p>
+            <p class="carga-horaria">Carga horária: 300h</p>
+            <p class="periodo">2024</p>
+            <a
+              href="https://sgn.sesisenai.org.br/arquivos/certificacao/09/e4/d4/09e4d4578636d39332efafc8ba413943/1566228_1898319.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-certificado"
+              >Acessar Certificado</a
+            >
+          </li>
+          <li class="formacao-item">
+            <h3>Desenvolvimento Web Full Stack</h3>
+            <p class="instituicao">SENAI/SC LAB 365</p>
+            <p class="carga-horaria">Carga horária: 300h</p>
+            <p class="periodo">2024</p>
+            <a
+              href="https://sgn.sesisenai.org.br/arquivos/certificacao/e7/02/13/e7021303de1673d4968b8c0f9df46ac9/1602728_2026873.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-certificado"
+              >Acessar Certificado</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section id="projetos" class="projetos">
+        <h2>Projetos</h2>
+        <div class="projetos-grid">
+          <article class="card-clicavel">
+            <h3>
+              <a
+                href="https://github.com/GabrielFilomeno/LABMedical-Api"
+                target="_blank"
+                rel="noopener noreferrer"
+                >API LABMedical</a
+              >
+            </h3>
+            <p>
+              API feita em Java com Spring Boot e PostgreSQL para questões de
+              estudo, a api foi pensada para gerenciar pacientes em um hospital,
+              consultas e histórico médico.
+            </p>
+            <span class="github-projeto">Acessar GitHub do Projeto</span>
+          </article>
+          <article class="card-clicavel">
+            <h3>
+              <a
+                href="https://github.com/GabrielFilomeno/LABMedical"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LABMedical</a
+              >
+            </h3>
+            <p>
+              Frontend LABMedical para questões de estudo, frontend feito em
+              Angular para gerenciar pacientes em um hospital, consultas e
+              histórico médico, esse projeto não tem integração com a API, o
+              intuito dele foi ser apenas para praticar o desenvolvimento
+              frontend.
+            </p>
+            <span class="github-projeto">Acessar GitHub do Projeto</span>
+          </article>
+          <article class="card-clicavel">
+            <h3>
+              <a
+                href="https://github.com/FullStack-Health/M3P-BackEnd-Squad3"
+                target="_blank"
+                rel="noopener noreferrer"
+                >API LAB Inc.</a
+              >
+            </h3>
+            <p>
+              API LAB Inc. para questões de estudo, esse foi um projeto feito em
+              grupo durante a avaliação final do curso do LAB 365, Backend feito
+              em Java com Spring Boot e PostgreSQL para gestão de inventário
+              médico.
+            </p>
+            <span class="github-projeto">Acessar GitHub do Projeto</span>
+          </article>
+          <article class="card-clicavel">
+            <h3>
+              <a
+                href="https://github.com/FullStack-Health/M3P-FrontEnd-Squad3"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LAB Inc.</a
+              >
+            </h3>
+            <p>
+              Frontend LAB Inc. para questões de estudo, esse foi um projeto
+              feito em grupo durante a avaliação final do curso do LAB 365,
+              frontend feito em Angular para gestão de inventário médico, e
+              integração com a API.
+            </p>
+            <span class="github-projeto">Acessar GitHub do Projeto</span>
+          </article>
+        </div>
+      </section>
+      <section id="contatos" class="contatos">
+        <h2>Contatos</h2>
+        <address class="contatos-lista">
+          <div class="contato-item">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:biel_floripa@hotmail.com"
+              >biel_floripa@hotmail.com</a
+            >
+          </div>
+          <div class="contato-item">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <a
+              href="https://www.linkedin.com/in/gabriel-filomeno/"
+              target="_blank"
+              rel="noopener"
+              >linkedin.com/in/gabriel-filomeno</a
+            >
+          </div>
+          <div class="contato-item">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+            <a
+              href="https://github.com/GabrielFilomeno"
+              target="_blank"
+              rel="noopener"
+              >github.com/GabrielFilomeno</a
+            >
+          </div>
+          <div class="contato-item">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            <a href="https://wa.me/5548988003889" target="_blank" rel="noopener"
+              >(48) 98800-3889</a
+            >
+          </div>
+        </address>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 Gabriel. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
