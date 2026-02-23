@@ -10,6 +10,14 @@ O portfólio foi construído com foco em **design responsivo** e **acessibilidad
 
 ---
 
+## 🚀 Deploy e Hospedagem
+
+O projeto está hospedado utilizando o **GitHub Pages**, permitindo acesso rápido e direto através do navegador.
+
+🔗 **Link para acesso:** https://gabrielfilomeno.github.io/portfolio/
+
+---
+
 ## 💻 Sobre o Projeto
 
 Este é um site estático desenvolvido "do zero", sem o uso de frameworks. A ideia é ser simples e direto com a base do desenvolvimento web (`HTML`, `CSS` e `JavaScript`). O design foi pensado no `Mobile First` e utiliza um tema escuro (Dark Mode), transmitindo uma identidade visual moderna e tecnológica.
@@ -54,14 +62,6 @@ Este é um site estático desenvolvido "do zero", sem o uso de frameworks. A ide
 4.  **Formação:** Linha do tempo acadêmica com links diretos para os certificados.
 5.  **Projetos:** Cards interativos exibindo projetos desenvolvidos (LABMedical, LAB Inc.), com links para os repositórios.
 6.  **Contatos:** Links rápidos para E-mail, LinkedIn, GitHub e WhatsApp.
-
----
-
-## 🚀 Deploy e Hospedagem
-
-O projeto está hospedado utilizando o **GitHub Pages**, permitindo acesso rápido e direto através do navegador.
-
-🔗 **Link para acesso:** https://gabrielfilomeno.github.io/portfolio/
 
 ---
 
